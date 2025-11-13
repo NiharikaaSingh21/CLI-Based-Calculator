@@ -59,7 +59,7 @@ def calculator():
             clear_history()
             continue
 
-        # For math options (1–4), take two numbers
+        # For math options (1–4), enter two numbers
         try:
             num1 = float(input("Enter first number: "))
             num2 = float(input("Enter second number: "))
@@ -87,6 +87,7 @@ def calculator():
         history.append(f"{num1} {sign} {num2} = {result}")
 
 
-# Run the calculator
+# Run the calculator function
 calculator()
+
 
