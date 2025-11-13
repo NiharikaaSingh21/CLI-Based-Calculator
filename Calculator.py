@@ -16,7 +16,7 @@ def multiply(a, b):
 
 def divide(a, b):
     if b == 0:
-        return "Error! Division by zero."
+        return "Error! Division by zero is not defined."
     return a / b
 
 
@@ -37,7 +37,7 @@ def clear_history():
 
 def calculator():
     while True:
-        print("\nSimple Calculator")
+        print("\n=======Select the operation you want to perform=======")
         print("-----------------")
         print("1. Add")
         print("2. Subtract")
@@ -89,3 +89,4 @@ def calculator():
 
 # Run the calculator
 calculator()
+
